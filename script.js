@@ -25,17 +25,17 @@ async function checkweather(city) {
 
     const condition = data.weather[0].main;
     if (condition === "Clouds") {
-      weathericon.src = "images/clouds.png";
+      weathericon.src = "clouds.png";
     } else if (condition === "Clear") {
-      weathericon.src = "images/clear.png";
+      weathericon.src = "clear.png";
     } else if (condition === "Rain") {
-      weathericon.src = "images/rain.png";
+      weathericon.src = "rain.png";
     } else if (condition === "Drizzle") {
-      weathericon.src = "images/drizzle.png";
+      weathericon.src = "drizzle.png";
     } else if (condition === "Snow") {
-      weathericon.src = "images/snow.png";
+      weathericon.src = "snow.png";
     } else if (condition === "Mist" || condition === "Haze") {
-      weathericon.src = "images/mist.png";
+      weathericon.src = "mist.png";
     }
   }
 }
